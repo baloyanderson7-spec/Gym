@@ -1,0 +1,44 @@
+{
+  "name": "Bitácora de Cancha",
+  "short_name": "Bitácora",
+  "description": "Seguimiento semanal de peso, fuerza y cardio para la temporada 26/27",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F1512",
+  "theme_color": "#0F1512",
+  "categories": ["fitness", "health"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'%3E%3Crect width='540' height='720' fill='%230F1512'/%3E%3Ctext x='270' y='100' font-family='Oswald' font-size='48' font-weight='bold' fill='%23C6F135' text-anchor='middle'%3EBitácora%3C/text%3E%3C/svg%3E",
+      "sizes": "540x720",
+      "form_factor": "narrow",
+      "type": "image/svg+xml"
+    }
+  ],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='45' fill='%230F1512'/%3E%3Ctext x='96' y='128' font-family='Georgia' font-size='100' font-weight='bold' fill='%23C6F135' text-anchor='middle'%3E⚽%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='45' fill='%23C6F135'/%3E%3Ctext x='96' y='128' font-family='Georgia' font-size='100' font-weight='bold' fill='%230F1512' text-anchor='middle'%3E⚽%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "share_target": {
+    "action": "./",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
